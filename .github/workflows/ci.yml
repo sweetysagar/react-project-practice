@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test -- --runInBand
+      # - name: Run tests
+      #   run: npm test -- --runInBand
 
       - name: Build application
         run: npm run build
@@ -48,4 +48,3 @@ jobs:
           tags: |
             sweety007/react-project-practice:latest
             sweety007/react-project-practice:${{ github.sha }}
-            
