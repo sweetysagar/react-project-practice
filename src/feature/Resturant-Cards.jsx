@@ -1,4 +1,4 @@
-import UserContext from "../utils/userCOntext";
+import UserContext from "../utils/userContext";
 import { useContext } from "react";
 
 const ResturantCard = ({ resName }) => {

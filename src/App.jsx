@@ -7,7 +7,7 @@ import { Contact } from "./feature/Contact";
 import { Error } from "./feature/Error";
 import { ResturantMenu } from "./feature/ResturantMenu";
 import { UserClass } from "./feature/userClass";
-import UserContext from "./utils/userCOntext";
+import UserContext from "./utils/userContext";
 import { Provider } from "react-redux";
 import appStore from "./redux/appStore";
 import Cart from "./feature/Cart";
