@@ -1,0 +1,1 @@
+export const LOGO_URL = "https://commons.wikimedia.org/wiki/File:LEGO_logo.svg";

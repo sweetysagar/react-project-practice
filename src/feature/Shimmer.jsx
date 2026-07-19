@@ -1,0 +1,1 @@
+export const Shimmer = () => (<h1>Loading ......</h1>);
